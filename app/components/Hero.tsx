@@ -16,7 +16,7 @@ export default function Hero() {
         fontWeight: 500,
         marginBottom: '1.5rem',
       }}>
-        🇿🇦 South Africa's #1 Entry-Level Jobs Platform
+        South Africa Number 1 Entry-Level Jobs Platform
       </div>
 
       <h1 style={{
@@ -37,7 +37,7 @@ export default function Hero() {
         margin: '0 auto 2.5rem',
         lineHeight: 1.7,
       }}>
-        Internships, learnerships, graduate programmes — curated daily for ambitious young South Africans.
+        Internships, learnerships, graduate programmes curated daily for ambitious young South Africans.
       </p>
 
       <div style={{
