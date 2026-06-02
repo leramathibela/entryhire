@@ -28,7 +28,6 @@ export default function Hero() {
           }}>
             South Africa No.1 Entry-Level Platform
           </div>
-
           <h1 style={{
             fontFamily: 'Georgia, serif',
             fontSize: 'clamp(2.5rem, 5vw, 4rem)',
@@ -42,7 +41,6 @@ export default function Hero() {
             <span style={{ color: '#ea580c', fontStyle: 'italic' }}>Career</span> in<br />
             South Africa
           </h1>
-
           <p style={{
             color: '#78716c',
             fontSize: '1rem',
@@ -51,9 +49,8 @@ export default function Hero() {
             marginBottom: '2rem',
             fontWeight: 300,
           }}>
-            Internships, learnerships and graduate programmes — curated daily for ambitious young South Africans ready to start.
+            Internships, learnerships and graduate programmes curated daily for ambitious young South Africans ready to start.
           </p>
-
           <div style={{
             display: 'flex',
             background: '#fff',
@@ -93,7 +90,6 @@ export default function Hero() {
             </button>
           </div>
         </div>
-
         <div style={{
           background: '#1c1917',
           borderRadius: '24px',
@@ -110,7 +106,6 @@ export default function Hero() {
             marginBottom: '0.5rem',
           }}>1,247</div>
           <p style={{ fontSize: '0.85rem', color: '#a8a29e', fontWeight: 300 }}>Active job listings across South Africa</p>
-
           <div style={{ marginTop: '1.5rem', display: 'flex', flexDirection: 'column', gap: '8px' }}>
             {[
               { label: 'Internships', count: '412' },
@@ -132,11 +127,9 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
       <div style={{
         display: 'flex',
         justifyContent: 'center',
-        gap: 0,
         marginTop: '3rem',
         background: '#fff',
         borderTop: '1.5px solid #e7e5e4',
@@ -156,68 +149,6 @@ export default function Hero() {
           }}>
             <div style={{ fontFamily: 'Georgia, serif', fontSize: '1.8rem', fontWeight: 900, color: '#ea580c' }}>{stat.num}</div>
             <div style={{ fontSize: '0.75rem', color: '#78716c', marginTop: '3px' }}>{stat.label}</div>
-          </div>
-        ))}
-      </div>
-    </section>
-  )
-}        margin: '0 auto 2.5rem',
-        lineHeight: 1.7,
-      }}>
-        Internships, learnerships, graduate programmes curated daily for ambitious young South Africans.
-      </p>
-
-      <div style={{
-        display: 'flex',
-        maxWidth: '580px',
-        margin: '0 auto',
-        background: '#131918',
-        border: '1px solid #243030',
-        borderRadius: '14px',
-        overflow: 'hidden',
-      }}>
-        <input
-          type="text"
-          placeholder="Search jobs, companies, keywords..."
-          style={{
-            flex: 1,
-            background: 'transparent',
-            border: 'none',
-            outline: 'none',
-            padding: '16px 20px',
-            color: '#e8f0ee',
-            fontSize: '1rem',
-          }}
-        />
-        <button style={{
-          background: '#00e5a0',
-          color: '#0b0f0e',
-          border: 'none',
-          padding: '0 28px',
-          fontWeight: 700,
-          fontSize: '0.9rem',
-          cursor: 'pointer',
-        }}>
-          Search
-        </button>
-      </div>
-
-      <div style={{
-        display: 'flex',
-        gap: '2rem',
-        justifyContent: 'center',
-        marginTop: '4rem',
-        flexWrap: 'wrap',
-      }}>
-        {[
-          { num: '1 247', label: 'Active Listings' },
-          { num: '340+', label: 'Companies Hiring' },
-          { num: '9', label: 'Provinces Covered' },
-          { num: '48', label: 'New Jobs Today' },
-        ].map((stat) => (
-          <div key={stat.label} style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: '1.8rem', fontWeight: 900, color: '#00e5a0' }}>{stat.num}</div>
-            <div style={{ fontSize: '0.8rem', color: '#7a9490', marginTop: '4px' }}>{stat.label}</div>
           </div>
         ))}
       </div>
