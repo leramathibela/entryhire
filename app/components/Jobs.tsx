@@ -38,10 +38,12 @@ export default function Jobs() {
         .order('created_at', { ascending: false })
 
       if (error) {
-        console.error('Error fetching jobs:', error)
-      } else {
-        setJobs(data || [])
-      }
+  console.error('Error fetching jobs:', error)
+  alert('Error: ' + error.message)
+} else {
+  setJobs(data || [])
+  alert('Jobs loaded: ' + (data?.length || 0))
+}
       setLoading(false)
     }
 
