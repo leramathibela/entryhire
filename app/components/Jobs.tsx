@@ -39,7 +39,7 @@ export default function Jobs() {
 
       if (error) {
   console.error('Error fetching jobs:', error)
-  alert('Error: ' + error.message)
+  alert('Jobs loaded: ' + (data?.length || 0))
 } else {
   setJobs(data || [])
   alert('Jobs loaded: ' + (data?.length || 0))
